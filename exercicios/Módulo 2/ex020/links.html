@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Links</title>
+	<style type="text/css">
+
+		/* SELETORES PERSONALIZADOS
+			# = id
+			. = class
+			: = pseudo-class
+			:: = pseudo-element
+			> = children
+		*/
+
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		a {
+			color: red;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		a:visited {
+			color: darkred;
+		}
+
+		a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+
+		a:active {
+			color: yellow;
+		}
+
+		.especial {
+			background-color: rgb(255, 140, 140);
+			color: white;
+		}
+
+		.especial::before {
+			content: '→';
+		}
+
+		.especial::after {
+			content: '←';
+		}
+	</style>
+</head>
+<body>
+	<h1>Personalizando Links</h1>
+	<ul>
+		<li><a href="https://github.com/tiagomont" target="_blank">Repositório GitHub</a></li>
+		<li><a href="https://youtube.com/cursoemvideo" target="_blank" class="especial">Canal do YouTube</a></li>
+		<li><a href="https://cursoemvideo.com" target="_blank" class="especial">Site do Curso em Video</a></li>
+	</ul>
+</body>
+</html>
