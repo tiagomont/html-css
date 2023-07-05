@@ -11,20 +11,21 @@
 
 		table {
 			width: 400px;
+			height: 400px;
 			border-collapse: collapse;
-		}
-
-		tr.linha {
-			background-color: lightgray;
 		}
 
 		td {
 			border: 1px solid black;
 			padding: 8px;
+			/*Alinhamento Horizontal*/
+			text-align: center;
+			/*Alinhamento Vertical*/
+			vertical-align: middle;
 		}
 
-		td.dado {
-			background-color: yellow;
+		.numero {
+			text-align: right;
 		}
 	</style>
 </head>
@@ -42,29 +43,22 @@
 	-->
 	<table>
 		<tr> <!--Primeira Linha-->
-			<td>Nome</td>
-			<td>Idade</td>
-			<td>Peso</td>
-		<tr class="linha"> <!--Segunda Linha-->
-			<td>Tiago</td>
-			<td>18</td>
-			<td>63Kg</td>
+			<td>A1
+			<td>B1
+			<td>C1
+		<tr> <!--Segunda Linha-->
+			<td>A2
+			<td>B2
+			<td class="numero">C2
 		<tr> <!--Terceira Linha-->
-			<td>André</td>
-			<td>16</td>
-			<td>52Kg</td>
+			<td>A3</td>
+			<td>B3</td>
+			<td class="numero">C3</td>
 		</tr>
-		<tr class="linha"> <!--Quarta Linha-->
-			<td>Gustavo</td>
-			<td class="dado">24</td>
-			<td>72Kg</td>
-		</tr>
-		<tr>
-			<td>A5</td>
-			<td>B5</td>
-		</tr>
-		<tr>
-			<td>A6</td>
+		<tr> <!--Quarta Linha-->
+			<td>A4</td>
+			<td>B4</td>
+			<td>C4</td>
 		</tr>
 	</table>
 </body>
