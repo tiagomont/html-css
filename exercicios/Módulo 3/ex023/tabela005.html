@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício de Tabela</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		table {
+			width: 500px;
+			border-collapse: collapse;
+		}
+
+		caption {
+			font-weight: bold;
+			font-size: 1.3em;
+			padding: 5px;
+		}
+
+		th, td {
+			border: 1px solid black;
+			padding: 5px;
+		}
+
+		.cnome {
+			background-color: lightgray;
+		}
+
+		.amarelo {
+			background-color: yellow;
+		}
+
+		.vermelho {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Exercício de Tabela</h1>
+	<table>
+		<colgroup>
+			<col class="amarelo">
+			<col class="vermelho" span="2">
+			<col class="amarelo">
+		</colgroup>
+		<caption>Cadastro</caption>
+		<tr>
+			<th scope="col">Nome</th>
+			<th scope="col">Sexo</th>
+			<th scope="col">Idade</th>
+			<th scope="col">Profissão</th>
+		</tr>
+		<tr>
+			<td>Robin</td>
+			<td>F</td>
+			<td>22</td>
+			<td>Carpinteira</td>
+		</tr>
+		<tr>
+			<td>Pierre</td>
+			<td>M</td>
+			<td>25</td>
+			<td>Vendedor</td>
+		</tr>
+		<tr>
+			<td>Tiago</td>
+			<td>M</td>
+			<td>18</td>
+			<td>Densevolvedor</td>
+		</tr>
+		<tr>
+			<td>Lewies</td>
+			<td>M</td>
+			<td>60</td>
+			<td>Prefeito</td>
+		</tr>
+		<tr>
+			<td>Emily</td>
+			<td>F</td>
+			<td>19</td>
+			<td>Balconista</td>
+		</tr>
+		<tr>
+			<td>Mike</td>
+			<td>M</td>
+			<td>27</td>
+			<td>Motorista</td>
+		</tr>
+	</table>
+</body>
+</html>
