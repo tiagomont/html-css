@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Dec. Gerais */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #233eff;
+}
+
+h1 {
+	color: white;
+	text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.30);
+}
+
+/* Dec. Retrato (portait) */
+@media screen and (orientation: portrait) {
+	body {
+		background: url(../imagens/cev-portrait.jpg) no-repeat center/contain;
+	}
+}
+
+/* Dec. Paisagem (landscape) */
+@media screen and (orientation: landscape) {
+	body {
+		background: url(../imagens/cev-landscape.jpg) no-repeat left bottom/contain;
+	}
+}
