@@ -3,5 +3,6 @@
 /* Configurações de Retrato (Portrait) */
 
 body {
-	background: url(../imagens/cev-portrait.jpg) no-repeat center/contain;
+	background: url(../imagens/cev-portrait.jpg) no-repeat;
+	background-size: contain;
 }
